@@ -1,0 +1,51 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "podflow",
+  "title": "Podflow",
+  "description": "Quick ways to add new chapter marks",
+  "icon": "command-icon.png",
+  "author": "floriankimmel",
+  "owner": "laufend-entdecken-og",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "add",
+      "title": "Add",
+      "subtitle": "Add new chapter mark",
+      "description": "",
+      "mode": "view"
+    },
+    {
+      "name": "start",
+      "title": "Start",
+      "subtitle": "Start new Podcast Production",
+      "description": "",
+      "mode": "view"
+    },
+    {
+      "name": "toggle-start-pause",
+      "title": "Toggle Start/Pause",
+      "subtitle": "Start/Stop Podcast Production",
+      "description": "",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.75.2"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.6",
+    "@types/node": "20.8.10",
+    "@types/react": "18.2.27",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
