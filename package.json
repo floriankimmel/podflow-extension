@@ -11,23 +11,23 @@
     {
       "name": "add",
       "title": "Add",
-      "subtitle": "Add new chapter mark",
-      "description": "",
-      "mode": "view"
+      "subtitle": "Podflow",
+      "description": "Add new chapter mark",
+      "mode": "no-view"
     },
     {
       "name": "start",
       "title": "Start",
-      "subtitle": "Start new Podcast Production",
-      "description": "",
-      "mode": "view"
+      "subtitle": "Podflow",
+      "description": "Start new Podcast Production",
+      "mode": "no-view"
     },
     {
       "name": "toggle-start-pause",
       "title": "Toggle Start/Pause",
-      "subtitle": "Start/Stop Podcast Production",
-      "description": "",
-      "mode": "view"
+      "subtitle": "Podflow",
+      "description": "Start/Stop Podcast Production",
+      "mode": "no-view"
     }
   ],
   "dependencies": {
