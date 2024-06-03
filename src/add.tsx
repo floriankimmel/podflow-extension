@@ -6,5 +6,5 @@ export default async () => {
     await closeMainWindow();
     await setDefaults();
 
-    await runInRecordingSession('add');
+    await runInRecordingSession({ command: 'add', openTerminal: true });
 }
