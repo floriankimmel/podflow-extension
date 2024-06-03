@@ -3,7 +3,7 @@
     "name": "podflow",
     "title": "Podflow",
     "description": "Quick ways to add new chapter marks",
-    "icon": "command-icon.png",
+    "icon": "icon.png",
     "author": "floriankimmel",
     "owner": "laufend-entdecken-og",
     "license": "MIT",
